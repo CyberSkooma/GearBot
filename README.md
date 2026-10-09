@@ -30,7 +30,7 @@ sanitized, and the bot suppresses mentions.
 5. No privileged intents are needed: leave Message Content, Server Members,
    and Presence intents disabled.
 
-## Run on Linux Mint
+## Run on Debian
 
 Extract the ZIP and open a terminal in the backpacking-bot folder:
 
@@ -43,7 +43,7 @@ nano .env
 python bot.py
 ```
 
-If creating the virtual environment fails on Mint, install `python3-venv`
+If creating the virtual environment fails, install `python3-venv`
 with your package manager. Put the bot token in `.env`. For immediate command
 availability during setup, set DISCORD_GUILD_ID to your server ID. Enable
 Developer Mode in Discord settings, then right-click the server to copy its ID.
